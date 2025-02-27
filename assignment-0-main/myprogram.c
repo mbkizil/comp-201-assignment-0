@@ -20,10 +20,9 @@ int second_largest(int* array, int count)
 {
     // TODO: Find the second largest distinct value in the array.
     //       For example, if array = [1, 4, 2, 4, 5], the second largest is 4.
-    //       Edge cases to consider:
+    //       Edge cases to ignore:
     //         - All elements are the same
     //         - Array size == 1
-    //         - Negative and positive mixes
     int second = 0;
     return second;
 }
@@ -33,7 +32,6 @@ int sum_of_digits(int number)
     int s = 0;
     // TODO: Sum all digits of 'number'.
     //       Example: if number = 1234, the result should be 10 (1+2+3+4).
-    //       Handle negative numbers by summing the digits of the absolute value.
     return s;
 }
 
