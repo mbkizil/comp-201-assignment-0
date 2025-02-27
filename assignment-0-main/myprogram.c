@@ -1,46 +1,45 @@
 #include "mylibrary.h"
 
-int sum(int n)
+int sum_of_squares(int n)
 {
-	int result = 0;
-
-	//TODO: 1+2+...+n
-
-	return result;
+    int result = 0;
+    // TODO: Calculate the sum of squares from 1 to n:
+    //       1^2 + 2^2 + 3^2 + ... + n^2
+    return result;
 }
 
-int product_of_even_numbers(int *array, int count)
+int product_of_positives(int* array, int count)
 {
-	int product = 1;
-	for (int i=0;i<count;++i)
-	{
-		//TODO: only multiply even numbers, e.g., 2. Skip odd numbers, e.g., 3
-	}
-	return product;
+    int product = 1;
+    // TODO: Multiply only the strictly positive numbers (>0) in the array.
+    //       Ignore or skip zeros and negative numbers.
+    return product;
 }
 
-int max_of_numbers(int *array, int count)
+int second_largest(int* array, int count)
 {
-	//TODO: return the maximum number from the array
-	int max = array[0];
-
-	return max;
+    // TODO: Find the second largest distinct value in the array.
+    //       For example, if array = [1, 4, 2, 4, 5], the second largest is 4.
+    //       Edge cases to consider:
+    //         - All elements are the same
+    //         - Array size == 1
+    //         - Negative and positive mixes
+    int second = 0;
+    return second;
 }
 
-int reversed_number(int number)
+int sum_of_digits(int number)
 {
-	//TODO: if input is 12345, return 54321
-	int reversed = 0;
-
-	return reversed;
+    int s = 0;
+    // TODO: Sum all digits of 'number'.
+    //       Example: if number = 1234, the result should be 10 (1+2+3+4).
+    //       Handle negative numbers by summing the digits of the absolute value.
+    return s;
 }
 
-
-char alphabet_index(int index)
+char lowercase_alphabet_index(int index)
 {
-	//TODO: for index 0, return A. index 1, B, etc. until 25 for Z.
-	//if index is out of range, return space ' '.
-	return ' ';
+    // TODO: For index = 0, return 'a'. For index = 1, return 'b', up to index = 25 for 'z'.
+    //       If index is out of [0..25], return a space ' '.
+    return ' ';
 }
-
-
